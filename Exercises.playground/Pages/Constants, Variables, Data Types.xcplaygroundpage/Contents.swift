@@ -35,6 +35,11 @@
  
  */
 // Answer Question 1 below
+let name = "Cassie"
+let lastName = "Mesburis"
+var currentGrade = 10
+let studentsGradeForNovemberReportCard = 92
+
 
 /*:
  ### Question 2
@@ -47,6 +52,10 @@
  
  */
 // Answer Question 2 below
+let myAge = 15
+let otherAge = 40.0
+let averageAge = (Double(myAge) + otherAge) / 2
+
 
 
 /*:
@@ -55,7 +64,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
+var personsFavoriteHobby = "swimming"
 
 /*:
  ### Question 4
@@ -65,6 +74,7 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
+print("the complier enforces safety; there are special optimizations that the compiler can make for constant values; it's the idiomatic, or correct, way to do things in Swift")
 
 
 /*:
@@ -76,7 +86,7 @@
  
  */
 // Answer Question 5 below
-
+let randomDemand = 1_000_000
 /*:
  ### Question 6
  
@@ -96,6 +106,13 @@
  
  */
 // Answer Question 6 below
+var x = 2017
+let y = "hello"
+//x = "hello"
+
+print("Once you assign a value to a constant or variable, the type is set and can't be changed. This is true even for variables. The value of a variable may change, but not its type.")
+
+
 
 
 /*:
@@ -106,6 +123,8 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
+print("It is considered a type safe language because: it makes you be clear about the types of values your code can work with; swift will run checks on all the constants and variables and flag any errors; also applies to values that represent data that may seem compatible; also applies to values that represent data that may seem compatible.")
+
 
 
 
